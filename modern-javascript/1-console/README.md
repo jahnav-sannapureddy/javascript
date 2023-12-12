@@ -4,35 +4,35 @@
 
 #### log
 
-```js:
+```js
 console.log(console);
 console.log("Console Logging");
 ```
 
 #### error 
 
-```js:
+```js
 console.error("Example: Error occurred");
 ```
 
 
 #### warn
 
-```js:
+```js
 console.warn("Example: Warning");
 ```
 
 
 #### info
 
-```js:
+```js
 console.info("Example: info")
 ```
 
 
 #### group
 
-```js:
+```js
 console.group();
 console.error("Group 1");
 console.log("Group 1");
@@ -43,7 +43,7 @@ console.groupEnd();
 
 #### with css styles
 
-```js:
+```js
 const styles = "padding: 8px; color: blue; font-size: 24px; 
 background-color: lightgreen;";
 console.log("%cHello World!", styles);
@@ -52,7 +52,7 @@ console.log("%cHello World!", styles);
 
 #### table
 
-```js:
+```js
 console.table({"Name": "Jahnav Sannapureddy", "Age": 100, "Hahhaa": "🤯"});
 ```
 
