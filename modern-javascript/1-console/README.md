@@ -4,63 +4,55 @@
 
 #### log
 
-<code>
+```js:
 console.log(console);
-
 console.log("Console Logging");
-</code>
+```
 
 #### error 
 
-<code>
+```js:
 console.error("Example: Error occurred");
-</code>
+```
 
 
 #### warn
 
-<code>
+```js:
 console.warn("Example: Warning");
-</code>
+```
 
 
 #### info
 
-<code>
+```js:
 console.info("Example: info")
-</code>
+```
 
 
 #### group
 
-<code>
-
+```js:
 console.group();
-
 console.error("Group 1");
-
 console.log("Group 1");
-
 console.warn("Group 1");
-
 console.groupEnd();
-
-</code>
+```
 
 
 #### with css styles
 
-<code>
+```js:
 const styles = "padding: 8px; color: blue; font####size: 24px; 
 background####color: lightgreen;";
-
 console.log("%cHello World!", styles);
-</code>
+```
 
 
 #### table
 
-<code>
+```js:
 console.table({"Name": "Jahnav Sannapureddy", "Age": 100, "Hahhaa": "🤯"});
-</code>
+```
 
