@@ -44,8 +44,8 @@ console.groupEnd();
 #### with css styles
 
 ```js:
-const styles = "padding: 8px; color: blue; font####size: 24px; 
-background####color: lightgreen;";
+const styles = "padding: 8px; color: blue; font-size: 24px; 
+background-color: lightgreen;";
 console.log("%cHello World!", styles);
 ```
 
