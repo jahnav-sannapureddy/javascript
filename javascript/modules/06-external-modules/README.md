@@ -6,6 +6,8 @@ node index.js
 
 node .\index.js | ./node_modules/.bin/bunyan -j
 
+npm run start
+
 ```
 
 ```js
