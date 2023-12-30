@@ -40,3 +40,44 @@ console.log(arr2, arr2.length);
 console.log("Removing from start: ")
 console.log("Removed item: ", arr2.shift());
 console.log(arr2, arr2.length);
+
+
+//transfromation
+
+const convertToUpperCase = (text) => text.toUpperCase();
+
+//map
+console.log("Converting colors to uppercase using map which returns them as new array: ")
+
+const newArray = arr2.map(convertToUpperCase);
+console.log(newArray);
+
+
+//filter
+console.log("Filtering colors with letter 'l': ")
+const chechIfItConatins = (text, letter) => text.includes(letter.toString());
+
+const newArray2 = arr2.filter((color) => chechIfItConatins(color, 'l'));
+console.log(newArray2);
+
+// aggregation
+
+//reduce
+console.log("Getting concatenation of the colors using reduce() :")
+const returnVal = arr2.reduce((prev, curr) => {
+    prev = prev + " " + curr;
+    return prev;
+}, "Intial: ");
+
+console.log(returnVal);
+console.log(arr2);
+
+//chaining
+console.log("Chaining: ");
+const newArray3 = arr2.filter((color) => chechIfItConatins(color, 'l'))
+.map(convertToUpperCase).reduce((prev, curr)=>{
+    prev.push(curr);
+    return prev;
+}, []);
+
+console.log(newArray3);
