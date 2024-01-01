@@ -8,6 +8,10 @@ node .\index.js | ./node_modules/.bin/bunyan -j
 
 npm run start
 
+npm ls
+
+npm ls -g
+
 ```
 
 ```js
